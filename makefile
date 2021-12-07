@@ -6,3 +6,6 @@ control.o: control.c constants.h
 
 write.o: write.c constants.h
 	gcc -c write.c
+
+clean: 
+	rm *.o control write telephone.txt
